@@ -10,6 +10,7 @@ public class MyMVCController {
     @RequestMapping(value = "/ep5")
     public String foo(@RequestParam(value = "name", required = false, defaultValue = "Alex") String name, Model model){
         model.addAttribute("name", name);
+        model.addAttribute("message", "This is message");
         return "hello";
     }
 
