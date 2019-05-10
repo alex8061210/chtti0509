@@ -9,6 +9,9 @@ public class Lesson {
     private int duration;
     private List<String> schedule;
 
+    public Lesson() {
+    }
+
     public Lesson(String courseName, String instructor, int duration) {
         this.courseName = courseName;
         this.instructor = instructor;
