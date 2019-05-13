@@ -1,4 +1,4 @@
-package com.chtti.demo.GitDemo;
+package com.chtti.demo.GitDemo.beans;
 
 import java.util.ArrayList;
 import java.util.List;

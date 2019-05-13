@@ -1,4 +1,6 @@
-package com.chtti.demo.GitDemo;
+package com.chtti.demo.GitDemo.beans;
+
+import com.chtti.demo.GitDemo.Calculator;
 
 public class AddCalculator implements Calculator {
     @Override

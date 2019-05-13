@@ -1,5 +1,8 @@
-package com.chtti.demo.GitDemo;
+package com.chtti.demo.GitDemo.configs;
 
+import com.chtti.demo.GitDemo.Calculator;
+import com.chtti.demo.GitDemo.beans.AddCalculator;
+import com.chtti.demo.GitDemo.beans.SubCalculator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
