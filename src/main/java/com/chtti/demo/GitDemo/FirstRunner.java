@@ -17,12 +17,16 @@ public class FirstRunner implements CommandLineRunner {
     @Autowired
     @Qualifier("sub")
     private Calculator c2;
+    @Autowired
+    @Qualifier("mul")
+    private Calculator c3;
 
     @Override
     public void run(String... args) throws Exception {
 
         LOGGER.info(String.format("c1=%d", c1.calc(5,6)));
         LOGGER.info(String.format("c2=%d", c2.calc(5,6)));
+        LOGGER.info(String.format("c2=%d", c3.calc(5,6)));
         LOGGER.info("First Runner start to run something.");
     }
 }
